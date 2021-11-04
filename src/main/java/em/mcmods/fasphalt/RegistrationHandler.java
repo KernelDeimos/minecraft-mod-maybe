@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package em.mcmods.fasphalt;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
