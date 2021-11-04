@@ -12,3 +12,8 @@ gradle-app.setting
 .gradletasknamecache
 
 run/
+bin/
+
+.settings/
+.classpath
+.project
