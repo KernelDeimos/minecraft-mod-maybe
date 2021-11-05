@@ -13,6 +13,7 @@ public class RegistrationHandler {
         final Item[] items = {
             new Item()
                 .setRegistryName(ExampleMod.MODID, "first_item")
+                .setUnlocalizedName(ExampleMod.MODID + "." + "first_item")
                 .setCreativeTab(CreativeTabs.MISC)
         };
 

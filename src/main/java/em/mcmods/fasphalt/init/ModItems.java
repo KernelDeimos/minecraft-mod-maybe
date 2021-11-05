@@ -1,5 +1,6 @@
-package em.mcmods.fasphalt;
+package em.mcmods.fasphalt.init;
 
+import em.mcmods.fasphalt.ExampleMod;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 

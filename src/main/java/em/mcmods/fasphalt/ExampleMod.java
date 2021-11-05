@@ -7,12 +7,13 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = ExampleMod.MODID, name = ExampleMod.NAME, version = ExampleMod.VERSION)
+@Mod(modid = ExampleMod.MODID, name = ExampleMod.NAME, version = ExampleMod.VERSION, acceptedMinecraftVersions = ExampleMod.MC_VERSION)
 public class ExampleMod
 {
     public static final String MODID = "fasphalt";
     public static final String NAME = "Faster Asphalt";
     public static final String VERSION = "1.0";
+    public static final String MC_VERSION = "[1.12.2]";
 
     private static Logger logger;
 
